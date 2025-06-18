@@ -107,7 +107,8 @@ xRcon supports the following games with their respective protocol IDs:
 
 ## Configuration
 
-- **servers.ini**: Stores server details in the format:```ini
+- **servers.ini**: Stores server details in the format:
+```ini
 [ServerName]
 ip=192.168.0.1
 port=12345
