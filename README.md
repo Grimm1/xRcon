@@ -108,7 +108,8 @@ xRcon supports the following games with their respective protocol IDs:
 ## Configuration
 
 - **servers.ini**: Stores server details in the format:
-```ini
+```
+ini
 [ServerName]
 ip=192.168.0.1
 port=12345
@@ -118,11 +119,15 @@ rconPassword=password123
 gametypes=dm:Deathmatch,tdm:Team Deathmatch
 maps=mp_brecourt:Brecourt,mp_dawnville:Dawnville
 ```
-- **default_maps.ini**: Contains default maps for each game, e.g.:```ini
+- **default_maps.ini**: Contains default maps for each game, e.g.:
+```
+ini
 [Medal of Honor: Allied Assault]
 maps=mp_brecourt:Brecourt,mp_dawnville:Dawnville
 ```
-- **default_gametypes.ini**: Contains default gametypes for each game, e.g.:```ini
+- **default_gametypes.ini**: Contains default gametypes for each game, e.g.:
+```
+ini
 [Medal of Honor: Allied Assault]
 gametypes=dm:Deathmatch,tdm:Team Deathmatch
 ```
