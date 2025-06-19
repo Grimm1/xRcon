@@ -47,6 +47,8 @@ xRcon supports the following games with their respective protocol IDs:
 ---
 
 ## Installation
+Use the release file (installer) or
+compile it yourself by :-
 
 1. **Prerequisites**:
     - Windows operating system (tested on Windows XP and later).
