@@ -158,12 +158,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-## Acknowledgments
 
-- Built with the Windows API for a native Windows experience.
-- Supports legacy games like Medal of Honor and Call of Duty series.
-- Special thanks to the game server community for feedback and testing.
-- Gratitude to contributors who provided the server-side mod scripts for Medal of Honor in the `moh_scripts` folder.
-
----
 
