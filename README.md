@@ -13,7 +13,7 @@ xRcon is a Windows-based Remote Console (RCON) application designed for managing
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ---
 
