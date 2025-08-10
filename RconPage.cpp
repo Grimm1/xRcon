@@ -1,4 +1,4 @@
-﻿// --- xRcon\RconPage.cpp ---
+// --- xRcon\RconPage.cpp ---
 // Implementation of the RCON page logic.
 // Handles user interactions for sending RCON commands, updating server settings, and managing player actions.
 
@@ -12,6 +12,8 @@
 #include <sstream>
 #include <string>
 #include <map>
+#include <thread>
+#include <chrono>
 
 #pragma comment(lib, "comctl32.lib") // Link Common Controls library
 #pragma comment(lib, "Ws2_32.lib")   // Link Winsock library
@@ -213,6 +215,8 @@ void RconPage::handleRconPage(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
                     sendRconCommand(hwnd, servers[serverIndex], mapCommand.c_str());
                 }
                 else {
+                    // Add a one second delay before running the map_restart command
+                    std::this_thread::sleep_for(std::chrono::seconds(1));
                     sendRconCommand(hwnd, servers[serverIndex], "map_restart");
                 }
                 UIRcon::updatePlayerTable(hwnd, servers[serverIndex]);
